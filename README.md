@@ -1,0 +1,4 @@
+XHRProxy.js
+===========
+
+XMLHttpRequest Proxy
