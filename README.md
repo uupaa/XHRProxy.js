@@ -2,7 +2,7 @@
 
 [![npm](https://nodei.co/npm/uupaa.xhrproxy.js.png?downloads=true&stars=true)](https://nodei.co/npm/uupaa.xhrproxy.js/)
 
-XHRProxy.js description.
+XMLHttpRequest Proxy for Browser and WebWorkers.
 
 ## Document
 
@@ -36,6 +36,8 @@ XHRProxy.get("./index.html", function(error, responseText, xhr) {
 ```
 
 ### Node.js
+
+Use [NodeProxy.js](https://github.com/uupaa/NodeProxy.js).
 
 ```js
 var NodeProxy = require("uupaa.nodeproxy.js");
