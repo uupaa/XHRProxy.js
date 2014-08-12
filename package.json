@@ -1,6 +1,6 @@
 {
   "name":           "uupaa.xhrproxy.js",
-  "version":        "0.0.3",
+  "version":        "0.0.4",
   "description":    "XMLHttpRequest proxy for Browser and WebWorkers",
   "url":            "https://github.com/uupaa/XHRProxy.js",
   "keywords":       ["XMLHttpRequest", "XHR", "request", "network", "proxy", "util", "uupaa", "WebModule", "Unstable"],
