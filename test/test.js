@@ -69,9 +69,7 @@ function testXHRProxy(test, pass, miss) {
     proxy.send();
 
     // ----------------------------------------------
-    var proxy2 = new XHRProxy();
-
-    proxy2.get(href, function(error, responseText, xhr) {
+    XHRProxy.get(href, function(error, responseText, xhr) {
         task.set("proxy_get", responseText);
         task.pass();
     });
