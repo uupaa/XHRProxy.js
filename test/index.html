@@ -14,10 +14,12 @@ onmessage = function(event) {
     importScripts(MESSAGE.BASE_DIR + "../node_modules/uupaa.test.js/lib/Test.js");
     importScripts(MESSAGE.BASE_DIR + "../node_modules/uupaa.eventlistener.js/lib/EventListener.js");
     importScripts(MESSAGE.BASE_DIR + "../node_modules/uupaa.datatype.js/lib/DataType.js");
-    importScripts(MESSAGE.BASE_DIR + "../node_modules/uupaa.uri.js/lib/URI.js");
+    importScripts(MESSAGE.BASE_DIR + "../node_modules/uupaa.wmurl.js/lib/WMURL.js");
+    importScripts(MESSAGE.BASE_DIR + "../node_modules/uupaa.wmurl.js/lib/WMURL.encode.js");
+    importScripts(MESSAGE.BASE_DIR + "../node_modules/uupaa.wmurl.js/lib/WMURL.decode.js");
     importScripts(MESSAGE.BASE_DIR + "../lib/XHRProxy.js");
     importScripts(MESSAGE.BASE_DIR + "../release/XHRProxy.min.js");
-    importScripts(MESSAGE.BASE_DIR + "./test.js?_=1407706384754");
+    importScripts(MESSAGE.BASE_DIR + "./test.js?_=1409231076426");
 
     self.postMessage({ error: self.errorMessage || "" });
 };
@@ -31,9 +33,11 @@ onmessage = function(event) {
 <script src="../node_modules/uupaa.test.js/lib/Test.js"></script>
 <script src="../node_modules/uupaa.eventlistener.js/lib/EventListener.js"></script>
 <script src="../node_modules/uupaa.datatype.js/lib/DataType.js"></script>
-<script src="../node_modules/uupaa.uri.js/lib/URI.js"></script>
+<script src="../node_modules/uupaa.wmurl.js/lib/WMURL.js"></script>
+<script src="../node_modules/uupaa.wmurl.js/lib/WMURL.encode.js"></script>
+<script src="../node_modules/uupaa.wmurl.js/lib/WMURL.decode.js"></script>
 <script src="../lib/XHRProxy.js"></script>
 <script src="../release/XHRProxy.min.js"></script>
-<script src="./test.js?=_1407706384755"></script>
+<script src="./test.js?=_1409231076426"></script>
 
 </body></html>
