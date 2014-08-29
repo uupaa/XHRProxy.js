@@ -1,6 +1,6 @@
 {
   "name":           "uupaa.xhrproxy.js",
-  "version":        "0.0.5",
+  "version":        "0.0.6",
   "description":    "XMLHttpRequest proxy for Browser and WebWorkers",
   "url":            "https://github.com/uupaa/XHRProxy.js",
   "keywords":       ["XMLHttpRequest", "XHR", "request", "network", "proxy", "util", "uupaa", "WebModule", "Unstable"],
@@ -32,11 +32,11 @@
     "label":        ["@dev"],
     "module": {
       "develop":    ["uupaa.valid.js"],
-      "release":    ["uupaa.eventlistener.js", "uupaa.datatype.js", "uupaa.wmurl.js"]
+      "release":    ["uupaa.wmevent.js", "uupaa.datatype.js", "uupaa.wmurl.js"]
     }
   },
   "dependencies": {
-    "uupaa.eventlistener.js": "",
+    "uupaa.wmevent.js": "",
     "uupaa.datatype.js": "",
     "uupaa.wmurl.js": ""
   },
